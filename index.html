@@ -75,7 +75,10 @@
     />
     <link rel="manifest" href="/manifest.json" />
     <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="./acesst/favicon/ms-icon-144x144.png" />
+    <meta
+      name="msapplication-TileImage"
+      content="./acesst/favicon/ms-icon-144x144.png"
+    />
     <meta name="theme-color" content="#ffffff" />
 
     <!-- Nhung font theo yeu cau cua khach -->
@@ -88,11 +91,43 @@
     <!-- reset Css -->
     <link rel="stylesheet" href="./acesst/css/reset.css" />
     <link rel="stylesheet" href="./acesst/css/style.css" />
-    <title>Bai 95-project3</title>
+    <title>Shine smile</title>
   </head>
-  <body>
-    <h1>Dự án 3</h1>
-    <h2>Test nuwa</h2>
-    <h1>xuan nay vang em</h1>
+  <body style="height: 50000px">
+    <div class="header">
+      <div class="container">
+        <!-- Phần trên -->
+        <div class="header-top">
+          <!-- logo -->
+          <a href="./"
+            ><img src="./acesst/img/logo1.png" alt="Shine smile" class="logo"
+          /></a>
+          <!-- nav -->
+          <nav class="navbar">
+            <ul class="navbar__list">
+              <li class="navbar__item">
+                <a href="#!" class="navbar__link navbar__link--active">Home</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#!" class="navbar__link">Services</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#!" class="navbar__link">About</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#!" class="navbar__link">Doctors</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- cta action -->
+          <div class="header__action">
+            <a href="#!" class="header__action--LogIn">Log In</a>
+            <a href="#!" class="btn header__action--LogUp">Sign Up</a>
+          </div>
+        </div>
+        <!-- Phần dưới -->
+        <div class="header-bottom"></div>
+      </div>
+    </div>
   </body>
 </html>
