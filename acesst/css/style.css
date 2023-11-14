@@ -135,10 +135,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-
 }
 
-.hero__img{
+.hero__img {
   display: flex;
   object-fit: cover;
 }
